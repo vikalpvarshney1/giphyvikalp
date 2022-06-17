@@ -4,7 +4,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SendIcon from "@mui/icons-material/Send";
 
 import Box1 from "./Box";
-const CommentInput = ({ addClick, handleChange, handleEnter, handleSend, isActive, }) => {
+const Text = ({ addClick, handleChange, handleEnter, handleSend, isActive, }) => {
   return (
     <div>
       <Paper
@@ -44,4 +44,4 @@ const CommentInput = ({ addClick, handleChange, handleEnter, handleSend, isActiv
   );
 };
 
-export default CommentInput;
+export default Text;

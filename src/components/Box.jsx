@@ -5,7 +5,6 @@ import Modal from "@mui/material/Modal";
 import GifBoxSharpIcon from "@mui/icons-material/GifBoxSharp";
 import { InputBase } from "@mui/material";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-
 import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
 const Box1 = ({ addClick, isActive }) => {

@@ -1,12 +1,10 @@
 import { Box, Container } from "@mui/material";
 import React, { useState } from "react";
-import CommentInput from "./Text";
-import styled from "styled-components";
 import DeleteOutlineOutlinedIcon from "@mui/icons-material/DeleteOutlineOutlined";
 import Tooltip from "@mui/material/Tooltip";
+import Text from "./Text";
+import styled from "styled-components";
 import useMediaQuery from "@mui/material/useMediaQuery";
-
-//Some styled components
 const Comment = styled.p`
   font-size: 1em;
   text-align: left;
@@ -117,7 +115,7 @@ const MessagePost = () => {
             );
           })}
         </Box>
-        <CommentInput
+        <Text
           addClick={addClick}
           handleChange={handleChange}
           handleEnter={handleEnter}
